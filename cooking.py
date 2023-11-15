@@ -26,8 +26,8 @@ while True:
 
 
     elif typeOfCook == "smoked":
-        #takes ruffly 630 or 11.5 hours per pound of bird
-        pound=pound*630
+        #takes ruffly 35 minets per pound of bird
+        pound=pound*35
         print("when the smoker is ready it will take"+str(pound)+"minets")
 
 
