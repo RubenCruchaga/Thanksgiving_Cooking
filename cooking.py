@@ -33,18 +33,6 @@ for i in range (turkyNum):
         #takes ruffly 3.5 minnets per pound of bird
         pound=pound*3.5
 
-    #lets the user to use a differt type of cooking
-    else:
-        print("I do not know how to cook a turcky like that. sorry")
-      '''  
-        #ask the user if you need stop or continu
-        fin=input("Are you done or not(yes,no)")
-        if fin == "no":
-            break
-        #ask the question agen
-        typeOfCook=input("How do you what to cook your turcky (oven roasted or boilled): ")
-        pound=float(input("How heavy is your turck(in pounds): "))
-'''
     print(str(pound)+" minets, for your "+str(turcky)+ " turcky")
     #this keeps the  pound information
     totalPound=0
