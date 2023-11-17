@@ -5,16 +5,15 @@ This cood will figer out how long it will take to cook your turcky useing what t
 turkyNum=int(input("How maney turckey are you cooking: "))
 for i in range (turkyNum):
     turcky=1
-    #ask what type of cooking
+#ask what type of cooking
     typeOfCook=input("How do you what to cook your turcky (oven roasted or boilled, grilled, smoked or fryed): ")
-    #ask how may pound the turky is
+#ask how may pound the turky is
     pound=float(input("How heavy is your turck(in pounds): "))
 # lets the user do it agen
     #breaks off the user to the two forms of cooking that the program lest
     if typeOfCook == "oven roasted":
         # the 14 is the avegr cooking time per pound
         pound=pound*14
-        print("it will take "+ str(pound)+ " minets")
         
     #this is for boilled
     elif typeOfCook == "boilled":
@@ -44,7 +43,6 @@ for i in range (turkyNum):
         #ask the question agen
         typeOfCook=input("How do you what to cook your turcky (oven roasted or boilled): ")
         pound=float(input("How heavy is your turck(in pounds): "))
-
     print(str(pound)+" minets, for your "+str(turcky)+ " turcky")
     #this keeps the  pound information
     totalPound=0
